@@ -1,1 +1,92 @@
 /* css */
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color:black; 
+    background-image:url("North-Entry-name-update-640x320.jpg");
+    
+}
+
+#header {
+    background-color:gray;  /* this changes the background color to gray*/
+    padding:0px;
+    color:white;
+}
+
+#header h1{
+    font-family:gray;
+    font-size:60px;
+    padding:20px;
+    margin:0px;
+}
+
+/* navigation */
+#nav, #nav a {
+    background-color:#ccc;   /* this changes the background color to #ccc */
+    padding:10px;
+
+}
+
+#nav a {
+    margin:0px;
+    color:black;
+    font-family:arial;
+    text-decoration:none; /* this turns off the underline on the links */
+    transition:color 2s, background-color 2s;
+    
+}    
+
+#nav a:hover {
+    background-color:#aaaaff;  
+    color:white;
+    transition:color 2s, background-color 2s;
+} 
+/* end navigation */
+.spotlight{
+    background-color:pink;
+    padding:20px;
+}
+
+#content {
+    padding:20px 40px;
+    background-color:#eee;
+    margin:0px;
+}
+
+h2, h3 {
+    font-family: arial;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    margin:0px;
+    padding:20px 40px;
+}
+
+#page{
+    padding:40px;
+}
+/* css */
+/*#header{
+    padding:20px;
+    width:400px;
+    background-color:pink;
+}
+
+#header a:hover{
+    width:200px;
+    background-color:turquoise;
+    transition: width 2s, background-color 2s;
+}   
+
+#header h2{
+    background-color:lime;
+    font-size:20px;
+}
+#header h2:hover{
+    font-size:50px;
+    background-color:yellow;
+    transition:background-color 2s, font-size 2s;
+} */
